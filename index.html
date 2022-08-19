@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Compartilhe no Whats...</title>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KLGHN8M');</script>
+  <!-- End Google Tag Manager -->
+
+  
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLGHN8M"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="container">
+    <div class="faixa">
+      <div class="imgs">
+        <a onclick="Evento()">
+          <img class="logo" src="2b.png">
+        </a>
+        <a onclick="Evento()">
+          <img class="menu" src="1b.png">
+        </a>
+    <!-- <p><span class="number" id="iD1">97</span> Pessoas assistindo nesse momento...</p> -->
+      </div>
+  </div>
+    <div class="black">
+      <img src="foto1.png"><br>
+      <h1>Lucas Sousa</h1><br>
+      <a onclick="Evento()" class="myButton">Iniciar conversa</a><br>
+      <p class="mensagem">Olá. Quero acessar a aula gratuita...</p><br>
+      <div></div>
+      <p>Ainda não tem o WhatsApp?</p>
+      <a class="down" onclick="Evento()">Download</a>
+    </div>
+  </div>
+    <div class="footer">
+        <!-- Termos de Uso e Política de Privacidade -->
+    <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
+        <p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.  Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas e resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Sinta-se à vontade para falar conosco. Lemos e respondemos todas as mensagens por ordem de chegada.</p>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript">
+    function Evento(){
+      //console.log("Entrou no script");
+      //fbq('track', 'FoiProWhats');
+      window.location.href = "https://api.whatsapp.com/send?phone=5527992971744&text=Ol%C3%A1.%20Quero%20acessar%20a%20aula%20gratuita...";
+    };
+  </script>
+</body>
+</html>
